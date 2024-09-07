@@ -2,7 +2,7 @@ from collections import Counter
 
 from utils import Input, get_input
 
-_input = get_input(day=1, _input=Input.GIVEN)
+_input = get_input(year=2015, day=1, _input=Input.GIVEN)
 
 parenthesis_count = Counter(_input)
 
