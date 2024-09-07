@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "adventofcode"
+version = "0.1.0"
+description = "A collection of solutions for AdventOfCode in Python."
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+utils = {path = "utils"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
