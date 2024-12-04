@@ -1,4 +1,5 @@
-*.txt
+# Ignore puzzle input
+*/inputs
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
